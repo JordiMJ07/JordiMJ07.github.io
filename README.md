@@ -1,4 +1,4 @@
-# ¡HOLA!
+# ¡HOLA! Soy Jordi
 
 - 🖥️ Soy estudiante de Desarrollo de Aplicaciones Web
 - 🏫 IES El Caminàs
