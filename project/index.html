@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordi Melchor Jiménez - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">JMJ</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre-mi" class="nav-link">Sobre Mí</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#proyectos" class="nav-link">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hola, soy <span class="highlight">Jordi</span>
+                    </h1>
+                    <p class="hero-subtitle">Estudiante de Desarrollo de Aplicaciones Web</p>
+                    <p class="hero-description">
+                        Apasionado de la informática y la tecnología. 
+                        Actualmente estudiando DAW en IES El Caminàs, construyendo el futuro del desarrollo web.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#proyectos" class="btn btn-primary">
+                            <i class="fas fa-code"></i>
+                            Ver Proyectos
+                        </a>
+                        <a href="#contacto" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            Contactar
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Jordi Melchor Jiménez</h3>
+                            <p>Estudiante DAW</p>
+                            <div class="profile-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Castellón de la Plana, Castellón, Comunidad Valenciana, España</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#sobre-mi" class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre Mí</h2>
+                <p class="section-subtitle">Conoce mi trayectoria académica y profesional</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>Mi Historia</h3>
+                        <p>
+                            Soy un estudiante apasionado por la tecnología y el desarrollo web. 
+                            Actualmente curso el Ciclo Formativo de Grado Superior en 
+                            <strong>Desarrollo de Aplicaciones Web (DAW)</strong> en el IES El Caminàs.
+                        </p>
+                        <p>
+                            Mi interés por la programación comenzó durante mi formación en 
+                            Bachillerato Científico Tecnológico en el IES Juan Bautista Porcar, 
+                            donde descubrí mi pasión por crear soluciones digitales innovadoras.
+                        </p>
+                        <p>
+                            Me especializo en tecnologías frontend y backend, siempre buscando 
+                            aprender nuevas herramientas y metodologías para crear aplicaciones 
+                            web modernas y eficientes.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-timeline">
+                    <h3>Formación Académica</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">2025 - Actualidad</div>
+                                <h4>Desarrollo de Aplicaciones Web (DAW)</h4>
+                                <p>IES El Caminàs</p>
+                                <div class="timeline-skills">
+                                    <span class="skill-tag">HTML5</span>
+                                    <span class="skill-tag">CSS3</span>
+                                    <span class="skill-tag">Java</span>
+                                    <span class="skill-tag">MySQL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">2023 - 2025</div>
+                                <h4>Bachillerato Científico Tecnológico</h4>
+                                <p>IES Juan Bautista Porcar</p>
+                                <div class="timeline-skills">
+                                    <span class="skill-tag">Matemáticas</span>
+                                    <span class="skill-tag">Física</span>
+                                    <span class="skill-tag">Tecnología</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mis Proyectos</h2>
+                <p class="section-subtitle">Actualmente trabajando en nuevos proyectos</p>
+            </div>
+            <div class="projects-placeholder">
+                <div class="placeholder-card">
+                    <div class="placeholder-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>En Proceso</h3>
+                    <p>Actualmente desarrollando nuevos proyectos como parte de mi formación en DAW</p>
+                    <div class="placeholder-status">
+                        <i class="fas fa-clock"></i>
+                        <span>Próximamente</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contacto</h2>
+                <p class="section-subtitle">¿Tienes algún proyecto en mente? ¡Hablemos!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Información de Contacto</h3>
+                        <p>
+                            Estoy disponible para colaborar en proyectos interesantes, 
+                            prácticas profesionales o cualquier consulta relacionada con desarrollo web.
+                        </p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Email</h4>
+                                    <a href="mailto:jordimelchorjimenez@gmail.com">
+                                        jordimelchorjimenez@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Teléfono</h4>
+                                    <a href="tel:641600656">641 600 656</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Ubicación</h4>
+                                    <span>Valencia, España</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <h3>Envía un Mensaje</h3>
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Jordi Melchor Jiménez. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="mailto:jordimelchorjimenez@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:641600656">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
